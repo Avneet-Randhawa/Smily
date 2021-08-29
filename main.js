@@ -9,8 +9,7 @@ function my_mousemove() {
     var radian = Math.atan2(event.pageX -x, event.pageY -y);
 
     var rot= radian*(180/Math.PI)* -1+270;
-    eye.style.transform="translate(rot)";
-    //eye.style.transform="rotate("+rot+"deg)";
+    eye.style.transform="rotate("+rot+"deg)";
 
 });
 }
